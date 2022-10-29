@@ -8,7 +8,7 @@
        <div class="p-3 border bg-light">
             <h3>{{ $name }}</h3>
             <p>{{ $email }}</p>
-            <img src="img/{{ $image }}" alt="{{ $name }}" width="150">
+            <img src="img/{{ $image }}" alt="{{ $name }}" width="150" class="img-thumbnail rounded-circle">
             <p class="mt-2">{{ $description }}</p>
        </div>
     </div>
