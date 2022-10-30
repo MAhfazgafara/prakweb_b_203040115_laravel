@@ -41,7 +41,7 @@ Route::get('posts/{post:slug}', [PostController::class, 'show']);
 Route::get('/categories', function() {
     return view ('categories', [
         'title' => 'Post Categories',
-        'category' => category::all()
+        'categories' => Category::all()
     ]);
 });
 
