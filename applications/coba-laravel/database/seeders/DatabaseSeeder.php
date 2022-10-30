@@ -24,6 +24,12 @@ class DatabaseSeeder extends Seeder
             'email' => 'ahfazgafara86@gmail.com',
             'password' => bcrypt('12345')
         ]);
+        
+        User::create([
+            'name' => 'Bagas Aditya',
+            'email' => 'bagasaditya@gmail.com',
+            'password' => bcrypt('12345')
+        ]);
 
         Category::create([
             'name' => 'Web Programming',
@@ -68,7 +74,7 @@ class DatabaseSeeder extends Seeder
             'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis reprehenderit omnis explicabo cupiditate necessitatibus aspernatur, quae odit commodi sint, eos voluptatibus et reiciendis alias laboriosam repudiandae.',
             'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis reprehenderit omnis explicabo cupiditate necessitatibus aspernatur, quae odit commodi sint, eos voluptatibus et reiciendis alias laboriosam repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis reprehenderit omnis explicabo cupiditate necessitatibus aspernatur, quae odit commodi sint, eos voluptatibus et reiciendis alias laboriosam repudiandae.',
             'category_id' => 2,
-            'user_id' => 1
+            'user_id' => 2
         ]);
 
         // \App\Models\User::factory()->create([
