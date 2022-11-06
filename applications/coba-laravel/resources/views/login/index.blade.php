@@ -2,12 +2,17 @@
 
 @section('container')
 <div class="row justify-content-center">
-
+  <style type="text/css">
+    body {
+      background-image: url("/img/bg.jpg");
+      background-position: unset;
+      background-size: 110%;
+    }
+  </style>
     <div class="col-md-4">
       <main class="form-signin w-100 m-auto">
-        <h1 class="h3 mb-3 fw-normal text-center"><strong>Please login</strong></h1>
-        <iframe src="https://lottie.host/?file=89a187e3-8d84-4b1c-b60d-9599d6e0b9dc/01mWj8UGo5.json" style="display:block; margin:auto;" width="230" height="230"></iframe>
-        {{-- <img class="mb-4" src="/img/login.png"  alt="" style="display:block; margin:auto;" width="180" height="180"> --}}
+        <h1 class="h3 mb-3 fw-normal text-center"><strong>Please Login</strong></h1>
+        <iframe src="https://lottie.host/?file=7d89fedd-5890-430e-973a-8de1f55bcfa7/GOrPttLHHq.json" style="display:block; margin:auto;" width="250" height="250"></iframe>
         <form action="/login" method="post">
           @csrf
               @if(session()->has('success'))
@@ -41,7 +46,7 @@
           
               <button class="w-100 btn btn-lg btn-dark" type="submit">Login</button>
             </form>
-            <small class="d-block text-center mt-3">Not registered? <a href="/register">Register Now!</a></small>
+            <small class="d-block text-center mt-3">Not registered? <a href="/register"><strong>Register Now!</strong></a></small>
         </main> 
     </div>
 </div>

@@ -17,6 +17,13 @@
   <body>
     
 @include('dashboard.layouts.header')
+<style type="text/css">
+  body {
+    background-image: url("/img/bg.jpg");
+    background-position: unset;
+    background-size: 110%; 
+  }
+</style>
 
 <div class="container-fluid">
   <div class="row">
