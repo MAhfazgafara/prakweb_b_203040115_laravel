@@ -2,12 +2,14 @@
 
 @section('container')
 <div class="row justify-content-center">
+
     <div class="col-md-4">
-        <main class="form-signin w-100 m-auto">
-            <h1 class="h3 mb-3 fw-normal text-center">Please login</h1>
-            <form action="/login" method="post">
-              @csrf
-              
+      <main class="form-signin w-100 m-auto">
+        <h1 class="h3 mb-3 fw-normal text-center"><strong>Please login</strong></h1>
+        <iframe src="https://lottie.host/?file=89a187e3-8d84-4b1c-b60d-9599d6e0b9dc/01mWj8UGo5.json" style="display:block; margin:auto;" width="230" height="230"></iframe>
+        {{-- <img class="mb-4" src="/img/login.png"  alt="" style="display:block; margin:auto;" width="180" height="180"> --}}
+        <form action="/login" method="post">
+          @csrf
               @if(session()->has('success'))
               <div class="alert alert-success alert-dismissible fade show" role="alert">
                 {{ session('success') }}
@@ -37,7 +39,7 @@
                 <label for="password">Password</label>
               </div>
           
-              <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+              <button class="w-100 btn btn-lg btn-dark" type="submit">Login</button>
             </form>
             <small class="d-block text-center mt-3">Not registered? <a href="/register">Register Now!</a></small>
         </main> 
