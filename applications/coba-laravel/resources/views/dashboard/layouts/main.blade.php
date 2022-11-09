@@ -21,7 +21,11 @@
   body {
     background-image: url("/img/bg.jpg");
     background-position: unset;
-    background-size: 110%; 
+    background-size: 110%;
+    background-attachment: fixed;
+    font-family: 'font_body';
+    font-size: 17px;
+    font-variant: inherit; 
   }
 </style>
 

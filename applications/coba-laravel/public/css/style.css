@@ -18,3 +18,22 @@
     border-radius: 0;
     margin-bottom: -1px;
 }
+
+@font-face {
+    font-family: font_blog;
+    src: url(Mulish-Regular.ttf);
+}
+
+body {
+    background-image: url("/img/bg.jpg");
+    background-position: unset;
+    background-size: 110%;
+    background-attachment: fixed;
+    font-family: 'font_body';
+    font-size: 18px;
+    font-variant: inherit;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}

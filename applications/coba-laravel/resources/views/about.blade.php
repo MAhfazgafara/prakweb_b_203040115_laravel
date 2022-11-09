@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-<h1 class="text-center">About the Author</h1>
+<h1 class="text-center"><strong>About the Author</strong></h1>
 <div class="container px-4 text-center">
     <div class="row gx-5">
       <div class="col">
