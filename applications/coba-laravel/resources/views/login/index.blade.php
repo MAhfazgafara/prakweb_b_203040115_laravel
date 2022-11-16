@@ -12,7 +12,7 @@
     <div class="col-md-4">
       <main class="form-signin w-100 m-auto">
         <h1 class="h3 mb-3 fw-normal text-center"><strong>Please Login</strong></h1>
-        <iframe src="https://lottie.host/?file=7d89fedd-5890-430e-973a-8de1f55bcfa7/GOrPttLHHq.json" style="display:block; margin:auto;" width="250" height="250"></iframe>
+        <iframe src="https://embed.lottiefiles.com/animation/78126" style="display:block; margin:auto;" width="260" height="260"></iframe>
         <form action="/login" method="post">
           @csrf
               @if(session()->has('success'))

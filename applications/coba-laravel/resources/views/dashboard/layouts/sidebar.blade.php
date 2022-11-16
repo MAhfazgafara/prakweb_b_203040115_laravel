@@ -2,7 +2,7 @@
     <div class="position-sticky pt-3 sidebar-sticky">
       <ul class="nav flex-column">
         <li class="nav-item">
-          <a class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}" style="color:whitesmoke"  aria-current="page" href="/dashboard ">
+          <a class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}" style="color:darkgrey"  aria-current="page" href="/dashboard ">
             <span data-feather="home" class="align-text-bottom"></span>
             Dashboard
           </a>
